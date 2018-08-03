@@ -1,0 +1,11 @@
+/*
+CREATE AND DEPLOY NEW BRANCH
+_______RIGHT AWAY_______
+
+*/
+
+
+git checkout --orphan Development-branch #We have created a new branch called Development-branch
+git add -A #Add all files and non-empty folders in this current directory
+git commit -a -m "The first commits"
+git push origin Development-branch:Development-branch #Git please push these things to a new branch called Development-branch online at github.com account.

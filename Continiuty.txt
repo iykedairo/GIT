@@ -1,0 +1,47 @@
+/*
+
+
+GIT ADD
+
+*/
+git add :/ //(add everything from top git repo folder
+git add . === git add -A . === git add "*" //new/modified/deleted (files only)
+git add -A === git add --all //new/deleted/modified (dirs/files)
+git add -u === git add --update //Modified/deleted (files/dirs)
+git add --ignore-removal //new/modified (files/dir)
+
+//FILES ONLY
+git add --ignore-removal . //new/modified (files)
+git add -u . === git add --update . //Modified/deleted (files)
+ 
+ 
+ 
+ /*
+ GIT COMMIT 
+ */
+ git commit -a -m "First pages commit"
+ git commit -m  "<commit message>" //Commit only modified
+ git commit -am  "<commit message>" //Automatically commit modified
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*
+ 
+ MIXED SYNTAX
+ 
+ */
+ git add -A && git commit -m "Your Message"
+ git add --all && git commit -m "comment"
+ 
+ 

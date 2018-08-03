@@ -1,0 +1,3 @@
+git rm -rf . #Remove everything in tghis current folder
+
+git rm index.php #rmove index.php

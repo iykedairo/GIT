@@ -1,0 +1,4 @@
+echo  "<H1> I AM A HAPPY MAN!</H1>"
+
+touch index.php
+touch file.aspx
