@@ -3,14 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<style>
-  body{
-    background-color: #123123;
-  }
-</style>
 </head>
-<body>
+<body style="background-color: #123123;">
 <div>
 
   
